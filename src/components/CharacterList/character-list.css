@@ -1,0 +1,33 @@
+.character-list ul {
+  list-style: none;
+  padding: 0 15px;
+}
+
+.character-list li {
+  display: inline-table;
+  padding: 0 15px 0 0;
+  width: 100px;
+  cursor: pointer;
+}
+
+.character-list li:last-child {
+  padding: 0;
+}
+
+.character-list li img {
+  width: 110px;
+  height: 100px;
+}
+
+.character-list li p {
+  text-align: center;
+}
+
+.character {
+  padding-top: 15px;
+}
+
+
+.character .box {
+  text-align: center;
+}
